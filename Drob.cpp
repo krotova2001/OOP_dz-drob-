@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 	Drob A, B; // создадим сразу несколько дробей
-	A.Init_drob(1, 2);
-	B.Init_drob(1, 3);
+	A.Init_drob(1, 3);
+	B.Init_drob(1, 6);
 	A.Plus(B); // сложение 1/2 и 1/3
 	A.Show();
 
